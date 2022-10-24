@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100vw;
+    height: 8vh;
+    padding: 1vh 5vh;
+
+    background-color:  #222224;
+    box-shadow: 2px 2px 1px 5px #ee1515;
+}
+
+.pokeball {
+    max-width: 40px;
+}
+
+h1 {
+    color: #f0f0f0;
+    font-size: 100px;
+}
+
+p {
+    color: antiquewhite;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 900px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+        padding: 3vh;
+    }
+
+    p {
+        visibility: hidden;
+    }
+    
+}

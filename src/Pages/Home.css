@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokeCard {
+    margin-top: -7vh;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    gap: 5vh;
+}
+
+.botao {
+    width: 20vh;
+    height: 7vh;
+
+    border-radius: 10px;
+    color: #f0f0f0;
+    font-size: 1.5rem;
+    box-shadow: 2px 2.5px 1px 2px #ee1515;
+    background-color: #222224;
+    transition: .8s;
+}
+
+.botao:hover {
+    box-shadow: 2px 2.5px 1px 2px #222224;
+    background-color: #ee1515;
+}
+
+@media screen and (max-width: 900px) {
+    .botoes {
+        gap: 2vh;
+        margin-top: -3vh;
+    }
+
+    .botao {
+        max-width: 90px;
+        max-height: 40px;
+        font-size: 1rem;
+    }
+    .pokeCard {
+        margin-top: -1vh;
+    }
+    
+}

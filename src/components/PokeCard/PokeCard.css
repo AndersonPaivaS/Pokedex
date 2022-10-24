@@ -1,0 +1,84 @@
+.content {
+    margin: 10vh;
+}
+
+.input{
+    display: flex;
+    margin-top: 10vh;
+    width: 30vw;
+    padding: 2vh;
+    border-radius: 15px;
+    box-shadow: 3px 3px 1px 3px #ee1515;
+    color: antiquewhite;
+    background-color: #222224;
+}
+
+.inputCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 2vh;
+    padding: 7vh;
+    margin-left: 6vh
+}
+
+@media screen and (max-width: 900px) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 3vh;
+        margin-left: 0vh;
+    }
+
+    .card {
+        max-width: 39vw;
+        
+    }
+
+    .input{
+        margin-top: 4vh;
+
+        padding: 1vh 3vh;
+        box-shadow: 2px 2px 1px 1px #ee1515;
+        color: antiquewhite;
+        background-color: #222224;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    width: 20vh;
+    height: 28vh;
+
+    border-radius: 15px;
+    box-shadow: 3px 3px 1px 3px #222224;
+    background-color: #ee1515;
+}
+
+.botao-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5vh;
+    width: 3vw;
+    height: 3vh;
+    border-radius: 10px;
+    background-color: antiquewhite;
+
+    transition: 1s;
+}
+
+.botao-card:hover {
+    background-color: #222224;
+    color: antiquewhite;
+}
